@@ -1,0 +1,11 @@
+tags
+*_srv
+*_srv_d
+*.map
+*.log
+*.db
+maps/
+passwords.cfg
+password.cfg
+sql.cfg
+rcon.cfg
