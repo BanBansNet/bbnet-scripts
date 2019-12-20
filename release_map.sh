@@ -38,6 +38,5 @@ read -d '' sql << EOF
 EOF
 
 echo "$sql" | mysql -u bbnet -p$1 bbnet
-
-echo "SELECT * FROM record_maps;" | mysql -u bbnet -p$1 bbnet
+./list_maps.sh $1
 
